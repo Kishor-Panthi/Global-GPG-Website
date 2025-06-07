@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8 items-center">
             <Link href="#home" className={`${scrolled ? 'text-blue-900' : 'text-white'} hover:text-blue-600`}>Home</Link>
             <Link href="#about" className={`${scrolled ? 'text-blue-900' : 'text-white'} hover:text-blue-600`}>About Us</Link>
             <Link href="#services" className={`${scrolled ? 'text-blue-900' : 'text-white'} hover:text-blue-600`}>Services</Link>
