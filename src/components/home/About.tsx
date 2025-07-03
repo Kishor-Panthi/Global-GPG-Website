@@ -1,5 +1,9 @@
 import React from 'react';
 import { Globe, Users, Award, BarChart } from 'lucide-react';
+import kishorImage from 'src\assets\Kishor.jpg'
+import sandeshImage from 'src\assets\Sandesh.jpg'
+import kshitijImage from 'src\assets\Kshitij.jpg'
+import bipulImage from 'src\assets\Bipul.jpg'
 
 const About: React.FC = () => {
   return (
@@ -63,28 +67,28 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "John Chen",
+                name: "Kishor Panthi",
                 title: "CEO & Founder",
                 location: "North Carolina, USA",
-                image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                image: kishorImage
               },
               {
-                name: "Aiko Tanaka",
+                name: "Bipul Panthi",
                 title: "Head of APAC Operations",
                 location: "Tokyo, Japan",
-                image: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                image: bipulImage
               },
               {
-                name: "Rajiv Sharma",
+                name: "Sandesh Gautam",
                 title: "CTO",
                 location: "Kathmandu, Nepal",
-                image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                image: sandeshImage
               },
               {
-                name: "Sarah Williams",
+                name: "Kshitij Ghawali",
                 title: "Director of Client Success",
                 location: "Toronto, Canada",
-                image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                image: kshitijImage
               }
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
