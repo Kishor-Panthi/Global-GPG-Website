@@ -52,8 +52,8 @@ const Services: React.FC = () => {
     },
     {
       icon: <Users className="h-10 w-10" />,
-      title: "Remote Team Augmentation",
-      description: "Access to our global talent pool to strengthen your existing team."
+      title: "AI Chatbot Integration",
+      description: "Let Customers communicate with a local AI chatbot"
     },
     {
       icon: <Shield className="h-10 w-10" />,

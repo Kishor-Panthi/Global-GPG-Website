@@ -87,9 +87,7 @@ const CaseStudy: React.FC = () => {
                     <span className="text-sm text-gray-600">Return on investment</span>
                   </div>
                 </div>
-                <Button className="flex items-center">
-                  Read Full Case Study <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                
               </div>
             </div>
             
@@ -101,15 +99,6 @@ const CaseStudy: React.FC = () => {
               />
             </div>
           </div>
-        </div>
-        
-        <div className="mt-12 text-center">
-          <p className="text-gray-600 mb-4">
-            Want to see more examples of our work?
-          </p>
-          <Button variant="secondary">
-            View More Case Studies
-          </Button>
         </div>
       </div>
     </section>

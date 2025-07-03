@@ -1,9 +1,9 @@
 import React from 'react';
 import { Globe, Users, Award, BarChart } from 'lucide-react';
-import kishorImage from 'src\assets\Kishor.jpg'
-import sandeshImage from 'src\assets\Sandesh.jpg'
-import kshitijImage from 'src\assets\Kshitij.jpg'
-import bipulImage from 'src\assets\Bipul.jpg'
+import kishorImage from '../../assets/Kishor.jpg'
+import sandeshImage from '../../assets/Sandesh.jpg'
+import kshitijImage from '../../assets/Kshitij.jpg'
+import bipulImage from '../../assets/Bipul.jpg'
 
 const About: React.FC = () => {
   return (
